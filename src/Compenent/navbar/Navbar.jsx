@@ -17,12 +17,12 @@ window.addEventListener('scroll',()=>{
     <nav className={`container ${sticky?"dark-nav":""}`}>
       <img src={Logo}alt="Logo" className="logo" />
       <ul className={mobileMenu?"":'hide-mobile-menu'}>
-        <li>Home</li>
-        <li>Program</li>
-        <li>About Us</li>
-        <li>Testimonials</li>
+        <a href="home"><li>Home</li></a>
+        <li><a href="#programs">Programs</a></li>
+        <a href="#aboutus"><li>About Us</li></a>
+        <a href="#testimonials"><li>Testimonials</li></a>
         <li>Campus</li>
-        <li><button className="btn">Contact Us</button></li>
+        <a href="#contactus"><li><button className="btn">Contact Us</button></li></a>
       </ul>
       <img src={menu_icon} alt="" className={`menu-icon`}
       onClick={toggleMenu} />

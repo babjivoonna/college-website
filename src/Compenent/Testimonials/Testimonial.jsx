@@ -26,13 +26,13 @@ function Testimonial() {
        
     }
   return (
-    <div className="testimonials">
+    <div className="testimonials" id="testimonials">
      <img src={next_icon} alt="" className='next-btn' onClick={()=>slideForward("next")}/> 
      <img src={back_icon} alt="" className='back-btn' onClick={()=>slideForward("right")}/> 
      <div className="slider">
         <ul ref={slider}>
         <li>
-            <div className="slide">
+            <div className="slide" >
                 <div className="user-info">
                     <img src={user_1}alt="" />
                     <div>

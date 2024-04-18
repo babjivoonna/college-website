@@ -10,7 +10,7 @@ const Program=()=>{
     const programs= [Program_1,Program_2,Program_3]
     const programicons=[Program_icon1,Program_icon2,Program_icon3]
   return (
-    <div className="programs"> 
+    <div className="programs" id="programs"> 
     
                     <div className="program">
                 <img src={Program_1} alt=""/>   
